@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: boxtabtype.xml 1888 2012-03-03 16:12:25Z TobiasH87 $ -->
+<data xmlns="http://www.wcfsolutions.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wcfsolutions.com/XSD/box-type.xsd">
+	<import>
+		<type>
+			<name>articleadd</name>
+			<classfile>lib/data/box/tab/type/ArticleAddBoxTabType.class.php</classfile>
+		</type>
+		<type>
+			<name>languagechoose</name>
+			<classfile>lib/data/box/tab/type/LanguageChooseBoxTabType.class.php</classfile>
+		</type>
+		<type>
+			<name>mainarticles</name>
+			<classfile>lib/data/box/tab/type/MainArticlesBoxTabType.class.php</classfile>
+		</type>
+		<type>
+			<name>onearticle</name>
+			<classfile>lib/data/box/tab/type/OneArticleInOnlineBoxTabType.class.php</classfile>
+		</type>
+	</import>
+</data>

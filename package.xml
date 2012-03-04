@@ -28,8 +28,14 @@
 		<requiredpackage minversion="1.1.1">com.burningpedia.wiki</requiredpackage>
 		<requiredpackage minversion="1.1.2 pl 1" file="requirements/com.wcfsolutions.wcf.data.box.tar">com.wcfsolutions.wcf.data.box</requiredpackage>
 		<requiredpackage minversion="1.1.0" file="requirements/com.wcfsolutions.wcf.data.navigation.tar">com.wcfsolutions.wcf.data.navigation</requiredpackage>
-		<!--  <requiredpackage minversion="1.0.0" file="requirements/com.woltlab.community.wiki.placeholderpatch.tar">com.woltlab.community.wiki.placeholderpatch</requiredpackage> -->
 	</requiredpackages>
+	
+	<!--
+	<optionalpackages>
+		<optionalpackage file="optionals/com.woltlab.community.wiki.box.standard.tar">com.woltlab.community.wiki.box.standard</optionalpackage>
+		<optionalpackage file="optionals/com.woltlab.community.wiki.index.standardbox.deactivate.tar">com.woltlab.community.wiki.index.standardbox.deactivate</optionalpackage>
+	</optionalpackages>
+	-->
 	
 	<excludedpackages>
 		<excludedpackage>com.wcfsolutions.wiki.box</excludedpackage>

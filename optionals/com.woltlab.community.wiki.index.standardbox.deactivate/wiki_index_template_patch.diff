@@ -1,0 +1,27 @@
+--- index.tpl
++++ index_patch.tpl
+@@ -22,6 +22,7 @@
+ 
+ 	<div class="layout-index">
+ 		<div class="columnContainer">
++			{if !WIKI_INDEX_STANDARDBOX_DEACTIVATE}
+ 			<div class="column first">
+ 				<div class="columnInner">
+ 					{if $mainArticles|count > 0}
+@@ -125,6 +126,7 @@
+ 				</div>
+ 			</div>
+ 			<div class="column second">
++			{/if}
+ 				<div class="columnInner">
+ 
+ 					{if $showMainArticle}
+@@ -238,7 +240,7 @@
+ 
+ 						{if $additionalBoxes|isset}{@$additionalBoxes}{/if}
+ 					</div>
+-				</div>
++				{if !WIKI_INDEX_STANDARDBOX_DEACTIVATE}</div>{/if}
+ 			</div>
+ 		</div>
+ 	</div>

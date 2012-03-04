@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.wiki.index.box"><![CDATA[Box(es)]]></item>
+		<item name="wcf.acp.option.category.wiki.index.box.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.wiki_index_standardbox_deactivate"><![CDATA[Standardboxes deactivate]]></item>
+		<item name="wcf.acp.option.wiki_index_standardbox_deactivate.description"><![CDATA[]]></item>
+	</category>
+</language>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.wiki.index.box"><![CDATA[Box(en)]]></item>
+		<item name="wcf.acp.option.category.wiki.index.box.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.wiki_index_standardbox_deactivate"><![CDATA[Standardboxen deaktivieren]]></item>
+		<item name="wcf.acp.option.wiki_index_standardbox_deactivate.description"><![CDATA[Wenn Sie diese Option aktivieren, werden die Standardboxen deaktiviert. Dies ist zu empfehlen sollten Sie die Boxen-Integration verwenden.]]></item>
+	</category>
+</language>
